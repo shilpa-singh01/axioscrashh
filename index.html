@@ -41,7 +41,7 @@
             }
 
             window.addEventListener("DOMContentLoaded", () => {
-      axios.get("https://crudcrud.com/api/33e2e29bebc94d4daa2b607392eace48/AppointmentData")
+      axios.get("https://crudcrud.com/api/60f3d375411f44d9a67c28eeb4337b10/AppointmentData")
         .then((response) => {
           console.log(response)
 
@@ -93,7 +93,7 @@
             }
 
             function deleteUser(userId){
-                axios.delete(`https://crudcrud.com/api/33e2e29bebc94d4daa2b607392eace48/AppointmentData/${userId}`)
+                axios.delete(`https://crudcrud.com/api/60f3d375411f44d9a67c28eeb4337b10/AppointmentData/${userId}`)
                 .then((respone) => {
                     removeUserFromScreen(userId)
                 })
